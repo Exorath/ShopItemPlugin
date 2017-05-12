@@ -41,7 +41,7 @@ public class ItemHandler implements Listener {
     public ItemStack getItemStack(Player player){
         ItemStack itemStack = new ItemStack(Material.BLAZE_POWDER);
         ItemMeta itemMeta = itemStack.getItemMeta();
-        itemMeta.setDisplayName(ChatColor.GREEN + "Go To " + ChatColor.GOLD + "Store " + ChatColor.GRAY + "(Right Click for Link)");
+        itemMeta.setDisplayName(ChatColor.GREEN + "Go to: " + ChatColor.GOLD + "Store " + ChatColor.GRAY + "(Right Click for Link)");
         itemStack.setItemMeta(itemMeta);
         return itemStack;
     }
